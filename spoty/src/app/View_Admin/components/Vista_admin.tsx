@@ -6,7 +6,15 @@ function Vista_admin() {
     <div className=''>
       <form>
         <div className="space-y-12">
-         
+        
+      <h1>Mi Imagen en Next.js</h1>
+      <Image
+        src="public\spoty1.jpg"
+        alt="Descripción de la imagen"
+        width={500}
+        height={500}
+      />
+ 
        
           <div className="border-b border-gray-900/10 pb-12">
             <h2 className="text-base font-semibold leading-7 text-gray-900">Formulario para subir cancion </h2>
